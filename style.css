@@ -1,0 +1,23 @@
+body h1 {
+    font-family: "Times New Roman",Arial,sans-serif;
+    color: purple;
+    font-weight: bolder;
+}
+
+body h2 {
+    font-family: "Times New Roman",Arial,sans-serif;
+    color: blueviolet;
+    font-weight: bold;
+}
+
+body p {
+    font-weight: 50px;
+}
+
+body ul li {
+    font-weight: bold;
+}
+
+body ol li {
+    font-weight: bold;
+}
