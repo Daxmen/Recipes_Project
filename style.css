@@ -1,7 +1,10 @@
-body h1 {
+
+body {
     font-family: "Times New Roman",Arial,sans-serif;
-    color: purple;
-    font-weight: bolder;
+    background-color: rgb(197, 237, 243);
+}
+.recetasvarias {
+    text-align: center;
 }
 
 body h2 {
@@ -14,9 +17,6 @@ body p {
     font-weight: 50px;
 }
 
-body ul li {
-    font-weight: bold;
-}
 
 body ol li {
     font-weight: bold;
@@ -28,5 +28,23 @@ body ol li {
     padding: 1em;
 }
 .titulo {
-background-color: rgb(172, 172, 152);
+padding: 8px;
+width: fit-content;
+display: block;
+background-color: rgb(115, 204, 213);
+margin: 0 auto;
+/* text-align: center; */
+border-color: purple;
+border-style: dotted;
+}
+.inicio-recetas {
+    text-align: center;
+}
+.inicio-recetas li {
+    background-color: rgb(173, 114, 229);
+    display: inline-block;
+    padding: 1em 2em;
+    text-align: center;
+    border: blue dotted;
+    font-weight: bold;
 }
